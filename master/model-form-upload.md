@@ -397,7 +397,7 @@ $form->image($column[, $label])->insert($watermark, 'center');
   
 ```php
 // 上传宽度为100-300像素之间的图片
-$form->image('img')->dimensions(['min_width' = 100, 'max_width' => 300]);
+$form->image('img')->dimensions(['min_width' => 100, 'max_width' => 300]);
 ```
 <a name="referer"></a>
 
